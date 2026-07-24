@@ -106,3 +106,9 @@ RegisterCommand('testlog', function(source, args, rawCommand)
         print("^2[spz-log] Test log sent!^7")
     end
 end, true)
+
+-- Expose a category's raw webhook URL (used by spz-races overtake clips to
+-- upload a screenshot straight to Discord via screenshot-basic).
+exports('GetWebhook', function(category)
+    return Config.Webhooks[category] or Config.Webhooks['default']
+end)
