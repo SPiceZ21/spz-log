@@ -12,7 +12,6 @@ Config.UseBot = true
 Config.Channels = {
     ['default']  = '',
     ['race']     = '',
-    ['nos']      = '',
     ['cheat']    = '',
     ['system']   = '',
     ['betting']  = '',
@@ -26,7 +25,6 @@ Config.Channels = {
 Config.Webhooks = {
     ['default'] = '',
     ['race']    = '',
-    ['nos']     = '',
     ['cheat']   = '',
     ['system']  = '',
 }
@@ -37,7 +35,6 @@ Config.Colors = {
     ['success'] = 3066993,  -- Green
     ['warning'] = 15105570, -- Amber
     ['error']   = 15158332, -- Red
-    ['nos']     = 10181046, -- Purple
     ['race']    = 1752220,  -- Aqua
 }
 
