@@ -14,7 +14,6 @@ Config.Channels = {
     ['race']     = '',
     ['cheat']    = '',
     ['system']   = '',
-    ['betting']  = '',
     ['minigame'] = '',
     ['duel']     = '',
 }
